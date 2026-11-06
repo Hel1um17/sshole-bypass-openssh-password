@@ -167,3 +167,10 @@ uid=0(root) gid=0(root) groups=0(root),0(root),1(bin),2(daemon),3(sys),4(adm),6(
 4、还有另一个有真实密码的账号
 ```
 > 注意，默认情况下，`root`账户是无法直接用密码登陆的，也就是配置文件`/etc/ssh/sshd_config`中的`PermitRootLogin prohibit-password`
+
+# 参考资料
+[sshhole.com](https://sshhole.com/)
+
+[OpenSSH 严重绕过漏洞“sshole”让任意超长密码都能登录 root](https://www.oschina.net/news/503439/openssh-sshhole)
+
+[OpenSSH/musl密码认证绕过漏洞安全风险通告](https://www.secrss.com/articles/95412)
